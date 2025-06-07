@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+}
+
+
+body {
+  background-color: var(--Grey-900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Inter";
+}
+
+
+.card {
+  width: 93%;
+  max-width: 375px;
+  min-height: 500px;
+  background-color: var(--Grey-800);
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+
+header {
+  text-align: center;
+  margin: 30px;
+}
+
+
+h1 {
+  color: var(--White);
+  font-size: 22px;
+  margin: 10px 10px;
+}
+
+
+span {
+  color: var(--Green);
+  font-weight: 700;
+}
+
+
+.author {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
+.title {
+  color: var(--White);
+  margin-top: 28px;
+  font-size: 13px;
+}
+
+
+section {
+  text-align: center;
+  font-weight: 700;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--White);
+  
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  outline: none;
+}
+
+
+.link {
+  background-color: var(--Grey-700);
+  padding: 13px;
+  margin: 0 30px 15px 30px;
+  border-radius: 8px;
+}
+
+
+#green:hover {
+  background-color: var(--Green);
+  cursor: pointer;
+}
+
+
+#green:hover a {
+  color: var(--Grey-800);
+}
