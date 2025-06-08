@@ -52,7 +52,7 @@ h1 {
 }
 
 
-span {
+.place {
   color: var(--Green);
   font-weight: 700;
 }
@@ -97,12 +97,12 @@ a {
 }
 
 
-#green:hover {
+.green:hover {
   background-color: var(--Green);
   cursor: pointer;
 }
 
 
-#green:hover a {
+.green:hover a {
   color: var(--Grey-800);
 }
